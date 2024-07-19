@@ -1,0 +1,250 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.inputForm {
+    margin-bottom: 20px;
+}
+
+.inputForm h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.inputForm label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.inputForm input[type="text"],
+.inputForm input[type="number"],
+.inputForm select,
+.inputForm input[type="date"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.inputForm button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.inputForm button:hover {
+    background-color: #45a049;
+}
+
+.seat_sel {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.seat_sel li {
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.seat_sel .smallBox {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.seat_sel .greenBox {
+    background-color: #367af8;
+    color: #fff;
+}
+
+.seat_sel .redBox {
+    background-color: #f44336;
+    color: #fff;
+}
+
+
+.seatStructure {
+    margin-bottom: 20px;
+}
+
+.seatStructure table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.seatStructure td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.seatStructure .seatVGap {
+    border: none;
+}
+
+.seatStructure .seatGap {
+    width: 20px;
+}
+
+.displayerBoxes {
+    margin-top: 20px;
+}
+
+.displayerBoxes table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.displayerBoxes th, .displayerBoxes td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.displayerBoxes button {
+    background-color: #2196f3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.displayerBoxes button:hover {
+    background-color: #0b7dda;
+}
+
+.copy-mss {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.copy-mss p {
+    font-size: 14px;
+    color: #777;
+}
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.copy-mss {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.copy-mss p {
+    color: #777;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: none;
+}
+
+/* Additional styles for the confirm button */
+button[name="submit"] {
+    background-color: #008CBA; /* Blue */
+}
+
+button[name="submit"]:hover {
+    background-color: #007BB5; /* Darker blue */
+}
